@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Voyage</string>
-    <string name="user_lastname">TISSOT</string>
+    <string name="main_title">Nouveau kit</string>
+    <string name="main_depart">Départ</string>
+    <string name="main_destination">Destination</string>
+    <string name="main_nom_option">Nom option :</string>
+    <string name="main_prix_forfaitaire">Prix forfaitaire :</string>
+    <string name="main_nb_nuits">Nombre nuits :</string>
+    <string name="main_prix_nuit">Prix par nuit :</string>
+    <string name="button_valider">Valider</string>
+    <string name="button_ajouter">Ajouter</string>
 </resources>

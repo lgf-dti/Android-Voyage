@@ -8,7 +8,145 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <TextView
+        android:text="@string/main_title"
+        android:textSize="45sp"
+        android:background="@color/teal_700"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_depart"
+        android:textSize="20sp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/editTextDepart"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="20sp"
+        android:hint="Ville de départ"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/main_destination"
+        android:textSize="20sp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/editTextDestination"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="20sp"
+        android:hint="Ville de destination"
+        android:padding="5dp" />
+
+    <Button
+        android:id="@+id/buttonValiderKit"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_valider"
+        android:textSize="20sp"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="#FFFFFF"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"></Button>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/main_nom_option"></TextView>
+        <EditText
+            android:id="@+id/editTextNomOption"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="48dp"></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/main_prix_forfaitaire"></TextView>
+        <EditText
+            android:id="@+id/editTextPrixForfaitaire"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="48dp"></EditText>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/main_nb_nuits"></TextView>
+        <EditText
+            android:id="@+id/editTextNbNuits"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="48dp"></EditText>
+
+     </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/main_prix_nuit"></TextView>
+        <EditText
+            android:id="@+id/editTextPrixNuit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="48dp"></EditText>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonAjouterOption"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_ajouter"
+        android:textSize="20sp"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="#FFFFFF"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"></Button>
 
 
 </LinearLayout>
